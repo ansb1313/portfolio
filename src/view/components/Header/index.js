@@ -45,13 +45,13 @@ const Nav = styled.div`
 `
 
 const NavItem = styled.div`
-
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0 20px;
   height: 65px;
   color: #333;
   text-transform: capitalize;
+  cursor: pointer;
   &:hover{
     color: #18f;
   }
